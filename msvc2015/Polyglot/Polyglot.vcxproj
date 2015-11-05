@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\polyglot1.4w29\adapter.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\attack.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\board.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\book.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\book_make.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\book_merge.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\colour.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\engine.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\epd.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\fen.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\game.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\hash.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\io.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\line.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\list.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\main.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\move.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\move_do.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\move_gen.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\move_legal.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\option.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\parse.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\pgn.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\piece.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\posix.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\random.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\san.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\search.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\square.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\uci.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\uci_options.cpp" />
+    <ClCompile Include="..\..\polyglot1.4w29\util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\polyglot1.4w29\adapter.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\attack.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\board.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\book.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\book_make.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\book_merge.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\colour.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\engine.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\epd.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\fen.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\game.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\hash.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\io.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\line.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\list.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\main.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\move.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\move_do.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\move_gen.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\move_legal.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\option.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\parse.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\pgn.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\piece.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\pipe.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\posix.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\random.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\san.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\search.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\square.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\uci.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\uci_options.h" />
+    <ClInclude Include="..\..\polyglot1.4w29\util.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E19C791D-5E0B-440D-BA1B-47C8F1170D22}</ProjectGuid>
+    <RootNamespace>Polyglot</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\codekiddy-chess.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

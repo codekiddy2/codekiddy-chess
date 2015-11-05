@@ -1418,7 +1418,7 @@ static void tb_to_string(char *tbstring,int size)
    tbstring[0]='\0';
    if(Uci->hash>0.0)
    n=sprintf(tbstring,"%3.0f%% ",Uci->hash*100);
-   if(Uci->tbhits) sprintf(tbstring+n,"tb: "S64_FORMAT,Uci->tbhits);
+   if(Uci->tbhits) sprintf(tbstring+n,"tb: " S64_FORMAT,Uci->tbhits);
 }
 
 #ifndef _WIN32

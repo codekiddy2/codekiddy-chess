@@ -13,7 +13,7 @@
 
 extern void book_clear      ();
 
-extern int book_open       (const char file_name[]);
+/*extern */int book_open       (const char file_name[]);
 extern void book_close      ();
 
 extern bool is_in_book      (const board_t * board);
